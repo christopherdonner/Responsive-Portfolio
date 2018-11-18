@@ -254,7 +254,7 @@ body {
 }
 #picture {
     padding: 20px;
-    height: 300px;
+    height: 250px;
 }
 #yourName {
     left: 5%
@@ -266,21 +266,30 @@ body {
     /*background-color: green;*/
 }
 #yourName {
+    left: 10px;
     padding: 20px;
     width: 100%;
 }
 #links {
+    top: 50%;
+    z-index: 4;
     padding-left: 100px;
     margin: 10px 10px 10px 10px;
 }
+#main {
+    max-width: 640px;
+    width: 100%px;
+}
 #picture {
-    padding: 50px;
-    height: 600px;
+    padding: 20px;
+    height: 330px;
 }
 h1 {
     font-size: 36px;
 }
 #AboutMe {
+    left: 10%;
     width: 80%;
+    font-size: 24px;
 }
 }
