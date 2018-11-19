@@ -1,6 +1,6 @@
-*/* {
+* {
     box-sizing: border-box;
-}*/
+}
 
 body {
     width: 100%;
@@ -11,7 +11,7 @@ body {
     left: 20%;
     font-size: 20px;
     width: 220px;
-    height: 100px;
+    height: 50px;
     top: 0;
     padding: 15px;
     background: teal;
@@ -22,10 +22,12 @@ body {
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    padding: 10px;
 }
 
 #links {
     font-size: 16px;
+    padding: 1px;
 }
 
 #Contact {
@@ -98,8 +100,8 @@ h1 {
     padding: 20px;
     left: 20%;
     top: 5%;
-    right: 20%;
-    width: 50%;
+    /*right: 20%;*/
+    width: 70%;
     border-style: solid;
     border-width: 2px;
     background-color: white;
@@ -196,7 +198,7 @@ input {
     position: relative;
     top: 10px;
     margin: 10px 10px 10px 10px;
-    padding: 1px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -211,7 +213,7 @@ input {
 
 #gudetama {
     width: 250px;
-    left: 35px;
+    left: 0px;
 }
 
 
@@ -234,15 +236,18 @@ input {
 body {    
     /*background-color: red;*/
 }
+#yourName {
+    left: 20%;
+}
 #main {
+    max-width: 980px;
+    width: 100%px;
     padding: 30px;
 }
-#yourName {
-    left: 10%;
-}
 #aboutme {
-
+    left: 20%;
 }
+
 #picture {
     height: 150px;
 }
@@ -256,8 +261,16 @@ body {
     padding: 20px;
     height: 250px;
 }
+
 #yourName {
     left: 5%
+}
+#main {
+    max-width: 768px;
+    width: 100%px;
+}
+#AboutMe {
+    left: 5%;
 }
 }
 
@@ -271,10 +284,11 @@ body {
     width: 100%;
 }
 #links {
-    top: 50%;
+    top: 200px;
     z-index: 4;
-    padding-left: 100px;
+    padding-left: 1/0px;
     margin: 10px 10px 10px 10px;
+    float: none;
 }
 #main {
     max-width: 640px;
@@ -288,8 +302,28 @@ h1 {
     font-size: 36px;
 }
 #AboutMe {
-    left: 10%;
+    left: 5%;
     width: 80%;
     font-size: 24px;
 }
+.label {
+    width: 100%;
+}
+#archer,
+#gummybears,
+#gudetama,
+#strangerthings,
+#sailormoon  {
+    left: 0;
+}
+#About,
+#Contact,
+#Portfolio {
+    float: none;
+    top: 200px;
+    float: right;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
 }
